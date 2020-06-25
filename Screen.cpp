@@ -62,7 +62,6 @@ void Screen::cleanup()
 	SDL_DestroyTexture(m_texture);
 	SDL_DestroyRenderer(m_renderer);
 	SDL_DestroyWindow(m_window);
-	//std::cout << "YOU DONE SON! i play with my assHOLE a lot\n";
 	SDL_Quit();
 }
 
